@@ -1,7 +1,5 @@
 import React from 'react';
-
 const Portfolio = () => {
-  
 
   return (
     <section className='p-8 md:py-20 md:px-10' id='portfolio'>
@@ -24,7 +22,7 @@ const Portfolio = () => {
                     <p className='my-4 font-para text-center md:text-left'>Discover seamless car rental experiences with our user-friendly website. Choose from a wide range of vehicles and enjoy hassle-free booking</p>
                     <ul>
                         <li className='text-center md:text-left'>
-                            <a href="https://rentplusown.com/" target='_blank' className='underline' rel="noreferrer">Live Demo</a>
+                            <a href="https://rentplusown.com/" className='underline' rel="noreferrer" target='_blank'>Live Demo</a>
                         </li>
                     </ul>
                 </div>
@@ -41,7 +39,7 @@ const Portfolio = () => {
                     <p className='my-4 font-para text-center md:text-left'>Transform your lifestyle with our Eat Healthy website. Discover tools, tips, and recipes to cultivate lasting habits.</p>
                     <ul>
                         <li className='text-center md:text-left'>
-                            <a href="https://eatlyhealthy.netlify.app/" target='_blank' className='underline ' rel="noreferrer">Live Demo</a>
+                            <a href="https://eatlyhealthy.netlify.app/" className='underline' target='_blank' rel="noreferrer">Live Demo</a>
                         </li>
                     </ul>
                 </div>
@@ -58,7 +56,7 @@ const Portfolio = () => {
                     <p className='my-4 font-para text-center md:text-left'>Building my online presence as a frontend developer with this portfolio website. Showing my creativity and skills with this stunning portfolio website.</p>
                     <ul>
                         <li className='text-center md:text-left'>
-                            <a href="https://kunwarpreetportfolio.netlify.app/" target='_blank' className='underline' rel="noreferrer">Live Demo</a>
+                            <a href="https://kunwarpreetportfolio.netlify.app/" className='underline' target='_blank' rel="noreferrer">Live Demo</a>
                         </li>
                     </ul>
                 </div>
