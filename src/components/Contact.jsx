@@ -27,7 +27,7 @@ const Contact = () => {
                         </div>
                         <div>
                             <h4 className='font-bold text-md text-center md:text-left'>Mail</h4>
-                            <a href='mailto:singhkunwarpreet797' className='text-center md:text-left   duration-300 hover:text-[color:var(--primary-color)] font-para'>singhkunwarpreet797@gmail.com</a>
+                            <a href='mailto:singhkunwarpreet797' className='text-center md:text-left   duration-300 hover:text-[color:var(--primary-color)] font-para' rel="noreferrer">singhkunwarpreet797@gmail.com</a>
                         </div>
                     </div>
                 </div>
@@ -42,9 +42,9 @@ const Contact = () => {
                 <h3 className='font-bold text-center md:text-left'>Copyright © 2024. All rights are reserved</h3>
 
                 <div className='flex gap-3 items-center justify-center mt-4 md:mt-0'>
-                    <a href='https://www.linkedin.com/in/kunwarpreet-singh-390456196/' target='_blank'><FaLinkedin fontSize={25} className='duration-500 hover:text-[color:var(--primary-color)] font-bold'/></a>
+                    <a href='https://www.linkedin.com/in/kunwarpreet-singh-390456196/' target='_blank'rel="noreferrer"><FaLinkedin fontSize={25} className='duration-500 hover:text-[color:var(--primary-color)] font-bold'/></a>
                     
-                    <a href="https://github.com/Kunwarpreet" target='_blank'><FaGithub fontSize={25} className='font-bold hover:text-[color:var(--primary-color)]'/></a>
+                    <a href="https://github.com/Kunwarpreet" target='_blank'><FaGithub fontSize={25} className='font-bold hover:text-[color:var(--primary-color)]'rel="noreferrer"/></a>
                 </div>
 
             </div>
