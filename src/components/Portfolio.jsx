@@ -13,7 +13,7 @@ const Portfolio = () => {
 
             <div className='flex flex-col md:flex-row w-full items-center justify-center md:justify-around gap-5 md:gap-0 mb-12'>
                 <div className='w-[90%] md:w-1/2 flex items-center justify-center md:justify-start lg:justify-center'>
-                    <video autoPlay loop className='w-full sm:w-2/3 rounded-xl shadow-xl'> 
+                    <video className='w-full sm:w-2/3 rounded-xl shadow-xl'> 
                         <source src='/assets/rentplusown.mp4'type='video/mp4'></source>
                     </video>
                 </div>
@@ -30,7 +30,7 @@ const Portfolio = () => {
             
             <div className='flex flex-col flex-wrap items-center justify-center md:flex-row-reverse w-full md:justify-around mb-12 gap-5 md:gap-0'>
                 <div className='w-[90%] md:w-1/2 flex items-center justify-center md:justify-end lg:justify-center'>
-                    <video autoPlay loop className='w-full sm:w-2/3 rounded-xl shadow-xl'> 
+                    <video className='w-full sm:w-2/3 rounded-xl shadow-xl'> 
                         <source src='/assets/eathealthy.mp4'type='video/mp4'></source>
                     </video>
                 </div>
@@ -47,7 +47,7 @@ const Portfolio = () => {
             
             <div className='flex flex-col flex-wrap md:flex-row w-full items-center justify-center md:justify-around mb-12 gap-5 md:gap-0'>
                 <div className='w-[90%] md:w-1/2 flex items-center justify-center md:justify-start lg:justify-center' >
-                    <video autoPlay loop className='w-full sm:w-2/3 rounded-xl shadow-xl'> 
+                    <video className='w-full sm:w-2/3 rounded-xl shadow-xl'> 
                         <source src='/assets/portfolio_website.mp4'type='video/mp4'></source>
                     </video>
                 </div>

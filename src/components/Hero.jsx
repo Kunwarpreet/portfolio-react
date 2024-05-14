@@ -12,7 +12,7 @@ const Hero = () => {
             </div>
 
             <div className=' flex items-center justify-center w-full lg:w-1/2'>
-                <div className='sm:w-[300px] sm:h-[300px] rounded-[50%] flex items-center justify-center shadow-2xl'>
+                <div className='sm:w-[300px] sm:h-[300px] rounded-[50%] flex items-center justify-center shadow-2xl xl:ml-[100px]'>
                   <picture>
                     <source media="(max-width: 639px)" srcSet="/assets/person_mobile.png"></source>
                     <source media="(min-width: 640px)" srcSet="/assets/person.png"></source>
