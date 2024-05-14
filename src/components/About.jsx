@@ -5,11 +5,11 @@ const About = () => {
     <section className='p-8 md:py-20 md:px-10' id='about'>
         <div className='container mx-auto'>
 
-            <div className='flex flex-col lg:flex-row flex-wrap'>
+            <div className='flex flex-col lg:flex-row flex-wrap '>
                 <div className='w-full flex justify-center lg:justify-normal lg:w-1/2 px-4 lg:px-7'>
                     <picture>
                         <source media="(min-width: 401px)" srcSet="/assets/about_img.webp"></source>
-                        <img src="/assets/about_img.webp" alt="about" className='rounded-xl shadow-xl '/>
+                        <img src="/assets/about_img.webp" alt="about" className='rounded-xl shadow-xl w-1/2 lg:w-full m-auto lg:m-0'/>
                   </picture>
                 </div>
 

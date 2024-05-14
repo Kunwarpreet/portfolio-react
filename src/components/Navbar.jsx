@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { FaBars } from "react-icons/fa6";
 import { IoClose } from "react-icons/io5";
 import { Link } from 'react-scroll';
-// import DarkMode from './DarkMode/DarkMode';
 
 const Navbar = () => {
   const [toggle,setToggle] = useState(false);
@@ -26,10 +25,6 @@ const Navbar = () => {
               
               <li className='py-3'><Link to='contact' smooth={true} className='duration-300 font-semibold cursor-pointer border-2 border-transparent hover:border-b-[color:var(--primary-color)] text-[color:var(--navbar-link-color)]'>Contact</Link></li>
           </ul>
-
-          {/* <div className='flex cursor-pointer '>
-            <DarkMode/>            
-          </div> */}
 
         </div>
 
