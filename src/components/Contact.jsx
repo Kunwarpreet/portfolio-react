@@ -18,7 +18,7 @@ const Contact = () => {
                         </div>
                         <div>
                             <h4 className='font-bold text-md text-center md:text-left'>Location</h4>
-                            <p className='text-center md:text-left duration-300 hover:text-[color:var(--primary-color)] cursor-pointer font-para'>Amritsar, Punjab</p>
+                            <p className='text-center md:text-left duration-300 hover:text-[color:var(--primary-color)] font-para'>Amritsar, Punjab</p>
                         </div>
                     </div>
                     <div className='flex flex-col md:flex-row items-center justify-center mt-7 gap-4'>

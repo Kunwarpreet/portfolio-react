@@ -7,8 +7,8 @@ const Hero = () => {
         <div className='flex flex-col flex-wrap justify-center lg:justify-normal lg:flex-row lg:py-8'>
 
             <div className='flex flex-col w-full lg:w-1/2 py-5'>
-                <h1 className='font-bold text-3xl lg:text-5xl my-7 text-center leading-tight lg:text-left'>Front-End React Developer</h1>
-                <p className='text-center lg:text-left font-para text-lg'>Hey there! I'm Kunwarpreet Singh, a passionate Front-End React Developer from Amritsar, Punjab📍</p>
+                <h1 className='font-bold text-3xl lg:text-5xl my-7 text-center leading-tight lg:text-left animate-pulse'>Front-End Developer</h1>
+                <p className='text-center lg:text-left font-para text-lg'>Hey there! I'm Kunwarpreet Singh, a passionate Front-End Developer from Amritsar, Punjab📍</p>
             </div>
 
             <div className=' flex items-center justify-center w-full lg:w-1/2'>

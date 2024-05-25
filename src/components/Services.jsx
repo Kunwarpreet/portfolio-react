@@ -5,7 +5,7 @@ const Services = () => {
     <section className='p-8 md:py-20 md:px-10 bg-[color:var(--background-color)]'id='services'>
         <div className='container mx-auto flex flex-wrap flex-col-reverse lg:flex-row items-center'>
             <div className='w-full lg:w-1/2'>
-                <h2 className='font-bold text-xl lg:text-3xl mb-4 text-center lg:text-left'>Services We Provide</h2>
+                <h2 className='font-bold text-xl bg-clip-text text-transparent bg-gradient-to-r from-[var(--primary-color)] to-[var(--navbar-link-color)] lg:text-3xl mb-4 text-center lg:text-left'>Services By Me</h2>
                 <p className='mb-8 text-center lg:text-left font-para'>
                     Empower your online presence with our comprehensive web services. From design to development, we've got you covered.
                 </p>

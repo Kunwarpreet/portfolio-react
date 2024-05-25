@@ -19,6 +19,14 @@
     --para-color:#767676;
 }
 
+body{
+  cursor: url('/public/cursor.png'),auto;
+}
+
+a{
+  cursor: url('/public/tap.png'),auto;
+}
+
 p{
     color: var(--para-color);
 }

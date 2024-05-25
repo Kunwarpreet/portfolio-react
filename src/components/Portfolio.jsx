@@ -1,4 +1,7 @@
 import React from 'react';
+import { FaWebflow,FaReact } from "react-icons/fa6";
+import { SiTailwindcss } from "react-icons/si";
+
 const Portfolio = () => {
 
   return (
@@ -22,9 +25,13 @@ const Portfolio = () => {
                     <p className='my-4 font-para text-center md:text-left'>Discover seamless car rental experiences with our user-friendly website. Choose from a wide range of vehicles and enjoy hassle-free booking</p>
                     <ul>
                         <li className='text-center md:text-left'>
-                            <a href="https://rentplusown.com/" className='underline' rel="noreferrer" target='_blank'>Live Demo</a>
+                            <a href="https://rentplusown.com/" className='hover:[color:var(--primary-color)] hover:underline' rel="noreferrer" target='_blank'>Live Demo</a>
                         </li>
                     </ul>
+                    <div className='flex items-center justify-center md:justify-normal gap-2 mt-3'>
+                        <p>Technology:</p>
+                        <FaWebflow fontSize={30} color='var(--webflow-logo)'/>
+                    </div>
                 </div>
             </div>
             
@@ -39,9 +46,13 @@ const Portfolio = () => {
                     <p className='my-4 font-para text-center md:text-left'>Transform your lifestyle with our Eat Healthy website. Discover tools, tips, and recipes to cultivate lasting habits.</p>
                     <ul>
                         <li className='text-center md:text-left'>
-                            <a href="https://eatlyhealthy.netlify.app/" className='underline' target='_blank' rel="noreferrer">Live Demo</a>
+                            <a href="https://eatlyhealthy.netlify.app/" className='hover:[color:var(--primary-color)] hover:underline' target='_blank' rel="noreferrer">Live Demo</a>
                         </li>
                     </ul>
+                    <div className='flex items-center justify-center md:justify-normal gap-2 mt-3'>
+                        <p>Technology:</p>
+                        <FaWebflow fontSize={30} color='var(--webflow-logo)'/>
+                    </div>
                 </div>
             </div>
             
@@ -56,9 +67,14 @@ const Portfolio = () => {
                     <p className='my-4 font-para text-center md:text-left'>Building my online presence as a frontend developer with this portfolio website. Showing my creativity and skills with this stunning portfolio website.</p>
                     <ul>
                         <li className='text-center md:text-left'>
-                            <a href="https://kunwarpreetportfolio.netlify.app/" className='underline' target='_blank' rel="noreferrer">Live Demo</a>
+                            <a href="https://kunwarpreetportfolio.netlify.app/" className='hover:[color:var(--primary-color)] hover:underline' target='_blank' rel="noreferrer">Live Demo</a>
                         </li>
                     </ul>
+                    <div className='flex items-center justify-center md:justify-normal gap-2 mt-3'>
+                        <p>Technology:</p>
+                        <FaReact fontSize={30} color='var(--react-logo)'/>
+                        <SiTailwindcss fontSize={30} color='var(--primary-color)'/>
+                    </div>
                 </div>
             </div>
             

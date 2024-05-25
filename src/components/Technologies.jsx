@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaHtml5, FaCss3Alt, FaReact, FaShopify } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiTailwindcss } from "react-icons/si";
 import { FaWebflow } from "react-icons/fa6";
@@ -24,7 +24,6 @@ const Technologies = () => {
             <div className='flex gap-5'>
               <SiTailwindcss fontSize={70} color='var(--primary-color)' />
               <FaWebflow fontSize={70} color='var(--webflow-logo)' />
-              <FaShopify fontSize={70} color='var(--shopify-logo)' />
             </div>
 
           </div>
