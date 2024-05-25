@@ -17,13 +17,13 @@ const Navbar = () => {
           <ul className='flex items-center gap-5'>
               <li className='py-3'><Link to='home' smooth={true} offset={-40} className='duration-300 font-semibold border-2 border-transparent hover:border-b-[color:var(--primary-color)] text-[color:var(--navbar-link-color)]'>Home</Link></li>
 
-              <li className='py-3'><Link to='about' smooth={true} offset={-40} className='font-semibold border-2 border-transparent hover:border-b-[color:var(--primary-color)] text-[color:var(--navbar-link-color)]'>About</Link></li>
+              <li className='py-3'><Link to='about' smooth={true} offset={-40} className='font-semibold cursor-pointer border-2 border-transparent hover:border-b-[color:var(--primary-color)] text-[color:var(--navbar-link-color)]'>About</Link></li>
 
-              <li className='py-3'><Link to='services' smooth={true} offset={-40} className='duration-300 font-semibold border-2 border-transparent hover:border-b-[color:var(--primary-color)] text-[color:var(--navbar-link-color)]'>Services</Link></li>
+              <li className='py-3'><Link to='services' smooth={true} offset={-40} className='duration-300 font-semibold cursor-pointer border-2 border-transparent hover:border-b-[color:var(--primary-color)] text-[color:var(--navbar-link-color)]'>Services</Link></li>
 
-              <li className='py-3'><Link to='portfolio' smooth={true} offset={-40} className='duration-300 font-semibold border-2 border-transparent hover:border-b-[color:var(--primary-color)] text-[color:var(--navbar-link-color)]'>Portfolio</Link></li>
+              <li className='py-3'><Link to='portfolio' smooth={true} offset={-40} className='duration-300 font-semibold cursor-pointer border-2 border-transparent hover:border-b-[color:var(--primary-color)] text-[color:var(--navbar-link-color)]'>Portfolio</Link></li>
               
-              <li className='py-3'><Link to='contact' smooth={true} className='duration-300 font-semibold border-2 border-transparent hover:border-b-[color:var(--primary-color)] text-[color:var(--navbar-link-color)]'>Contact</Link></li>
+              <li className='py-3'><Link to='contact' smooth={true} className='duration-300 font-semibold cursor-pointer border-2 border-transparent hover:border-b-[color:var(--primary-color)] text-[color:var(--navbar-link-color)]'>Contact</Link></li>
           </ul>
 
         </div>
@@ -46,15 +46,15 @@ const Navbar = () => {
           </div>
 
           <ul className='mt-8'>
-            <li className='py-3'><Link to='home' smooth={true} offset={-100} className='duration-300 border-2 border-transparent hover:border-b-[color:var(--primary-color)]' onClick={()=>setToggle(!toggle)}>Home</Link></li>
+            <li className='py-3'><Link to='home' smooth={true} offset={-100} className='duration-300 cursor-pointer border-2 border-transparent hover:border-b-[color:var(--primary-color)]' onClick={()=>setToggle(!toggle)}>Home</Link></li>
 
-            <li className='py-3'><Link to='about' smooth={true} offset={-100} className='duration-300 border-2 border-transparent hover:border-b-[color:var(--primary-color)]'onClick={()=>setToggle(!toggle)}>About</Link></li>
+            <li className='py-3'><Link to='about' smooth={true} offset={-100} className='duration-300 cursor-pointer border-2 border-transparent hover:border-b-[color:var(--primary-color)]'onClick={()=>setToggle(!toggle)}>About</Link></li>
 
-            <li className='py-3'><Link to='services' smooth={true} offset={-100} className='duration-300 border-2 border-transparent hover:border-b-[color:var(--primary-color)]'onClick={()=>setToggle(!toggle)}>Services</Link></li>
+            <li className='py-3'><Link to='services' smooth={true} offset={-100} className='duration-300 cursor-pointer border-2 border-transparent hover:border-b-[color:var(--primary-color)]'onClick={()=>setToggle(!toggle)}>Services</Link></li>
 
-            <li className='py-3'><Link to='portfolio' smooth={true} offset={-100} className='duration-300 border-2 border-transparent hover:border-b-[color:var(--primary-color)]'onClick={()=>setToggle(!toggle)}>Portfolio</Link></li>
+            <li className='py-3'><Link to='portfolio' smooth={true} offset={-100} className='duration-300 cursor-pointer border-2 border-transparent hover:border-b-[color:var(--primary-color)]'onClick={()=>setToggle(!toggle)}>Portfolio</Link></li>
             
-            <li className='py-3'><Link to='contact' smooth={true} offset={-100} className='duration-300 border-2 border-transparent hover:border-b-[color:var(--primary-color)]'onClick={()=>setToggle(!toggle)}>Contact</Link></li>
+            <li className='py-3'><Link to='contact' smooth={true} offset={-100} className='duration-300 cursor-pointer border-2 border-transparent hover:border-b-[color:var(--primary-color)]'onClick={()=>setToggle(!toggle)}>Contact</Link></li>
           </ul>
 
         </div>
