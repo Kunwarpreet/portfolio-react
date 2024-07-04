@@ -4,6 +4,7 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { SiTailwindcss } from "react-icons/si";
 import { FaWebflow } from "react-icons/fa6";
 import { CgFigma } from "react-icons/cg";
+import { FaWordpress } from "react-icons/fa";
 
 const Technologies = () => {
   return (
@@ -26,7 +27,7 @@ const Technologies = () => {
             <div className='flex gap-5'>
               <SiTailwindcss fontSize={70} color='var(--primary-color)' />
               <FaWebflow fontSize={70} color='var(--webflow-logo)' />
-              
+              <FaWordpress fontSize={70} color='#2994bf'/>
             </div>
 
           </div>
