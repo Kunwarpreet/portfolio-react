@@ -14,6 +14,30 @@ const Portfolio = () => {
                 <h3 className='font-bold text-xl lg:text-3xl text-center md:text-left'>Each Project is an unique piece of development</h3>
             </div>
 
+            <div className='flex flex-col flex-wrap md:flex-row w-full items-center justify-center md:justify-around mb-12 gap-5 md:gap-0'>
+
+                <div className='w-full md:w-1/2 flex flex-col'>
+                    <h4 className='font-bold text-center md:text-left'>CRYPTO WEBSITE</h4>
+                    <p className='my-4 font-para text-center md:text-left'>Created a cryptocurrency website with dynamic content (CMS) in webflow.</p>
+                    <ul>
+                        <li className='text-center md:text-left'>
+                            <a href="https://kunwarpreets-crypto-site.webflow.io/" className='hover:[color:var(--primary-color)] hover:underline' target='_blank' rel="noreferrer">Live Demo</a>
+                        </li>
+                    </ul>
+                    <div className='flex items-center justify-center md:justify-normal gap-2 mt-3'>
+                        <p>Technology:</p>
+                        <FaWebflow fontSize={30} color='var(--webflow-logo)'/>
+                    </div>
+                </div>
+
+                <div className='w-[90%] md:w-1/2 flex items-center justify-center md:justify-start lg:justify-center' >
+                    <video className='w-full sm:w-2/3 rounded-xl shadow-xl'> 
+                        <source src='/assets/crypto_site.mp4'type='video/mp4'></source>
+                    </video>
+                </div>
+                
+            </div>
+
             <div className='flex flex-col md:flex-row w-full items-center justify-center md:justify-around gap-5 md:gap-0 mb-12'>
                 <div className='w-[90%] md:w-1/2 flex items-center justify-center md:justify-start lg:justify-center'>
                     <video className='w-full sm:w-2/3 rounded-xl shadow-xl'> 
@@ -56,27 +80,7 @@ const Portfolio = () => {
                 </div>
             </div>
             
-            <div className='flex flex-col flex-wrap md:flex-row w-full items-center justify-center md:justify-around mb-12 gap-5 md:gap-0'>
-                <div className='w-[90%] md:w-1/2 flex items-center justify-center md:justify-start lg:justify-center' >
-                    <video className='w-full sm:w-2/3 rounded-xl shadow-xl'> 
-                        <source src='/assets/portfolio_website.mp4'type='video/mp4'></source>
-                    </video>
-                </div>
-                <div className='w-full md:w-1/2 flex flex-col'>
-                    <h4 className='font-bold text-center md:text-left'>PORTFOLIO WEBSITE</h4>
-                    <p className='my-4 font-para text-center md:text-left'>Building my online presence as a frontend developer with this portfolio website. Showing my creativity and skills with this stunning portfolio website.</p>
-                    <ul>
-                        <li className='text-center md:text-left'>
-                            <a href="https://kunwarpreetportfolio.netlify.app/" className='hover:[color:var(--primary-color)] hover:underline' target='_blank' rel="noreferrer">Live Demo</a>
-                        </li>
-                    </ul>
-                    <div className='flex items-center justify-center md:justify-normal gap-2 mt-3'>
-                        <p>Technology:</p>
-                        <FaReact fontSize={30} color='var(--react-logo)'/>
-                        <SiTailwindcss fontSize={30} color='var(--primary-color)'/>
-                    </div>
-                </div>
-            </div>
+            
             
 
         </div>
