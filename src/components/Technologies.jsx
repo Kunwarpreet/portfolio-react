@@ -3,6 +3,7 @@ import { FaHtml5, FaCss3Alt, FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiTailwindcss } from "react-icons/si";
 import { FaWebflow } from "react-icons/fa6";
+import { CgFigma } from "react-icons/cg";
 
 const Technologies = () => {
   return (
@@ -19,11 +20,13 @@ const Technologies = () => {
             <div className='flex gap-5'>
               <IoLogoJavascript fontSize={70} color='var(--js-logo)' />
               <FaReact fontSize={70} color='var(--react-logo)' />
+              <CgFigma fontSize={60} color='#9d56f7'/>
             </div>
 
             <div className='flex gap-5'>
               <SiTailwindcss fontSize={70} color='var(--primary-color)' />
               <FaWebflow fontSize={70} color='var(--webflow-logo)' />
+              
             </div>
 
           </div>
