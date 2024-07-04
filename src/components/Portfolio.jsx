@@ -1,6 +1,5 @@
 import React from 'react';
-import { FaWebflow,FaReact } from "react-icons/fa6";
-import { SiTailwindcss } from "react-icons/si";
+import { FaWebflow } from "react-icons/fa6";
 
 const Portfolio = () => {
 
